@@ -8,7 +8,7 @@ export interface ICreature {
     name: string;
     id: string;
 }
-export declare const CARD_TYPES: readonly ["Gem", "Relic", "Spell", "EMPTY"];
+export declare const CARD_TYPES: readonly ["ANY", "Gem", "Relic", "Spell", "EMPTY"];
 export declare type CardType = typeof CARD_TYPES[number];
 export declare type ICard = {
     type: CardType;

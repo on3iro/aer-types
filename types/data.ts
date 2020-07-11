@@ -11,7 +11,7 @@ export interface ICreature {
   id: string
 }
 
-export const CARD_TYPES = ['Gem', 'Relic', 'Spell', 'EMPTY'] as const
+export const CARD_TYPES = ['ANY', 'Gem', 'Relic', 'Spell', 'EMPTY'] as const
 export type CardType = typeof CARD_TYPES[number]
 
 export type ICard = {
