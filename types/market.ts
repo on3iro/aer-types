@@ -11,7 +11,7 @@ export const SUPPLY_OPERATIONS = [
 export type Operation = typeof SUPPLY_OPERATIONS[number]
 
 export interface IBluePrint {
-  id?: string | number // the optional id is only used for blueprints used inside custom setups
+  id?: string | number
   type: Data.CardType
   operation: Operation
   threshold?: number
